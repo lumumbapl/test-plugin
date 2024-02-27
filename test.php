@@ -9,6 +9,6 @@ plugins_url( '/bar.js', __FILE__ )
 );
 wp_enqueue_script_module(
 'foo',
-plugins_url( '/foo.js', _FILE_ ),
+plugins_url( '/foo.js', __FILE__ ),
 array( 'bar' )
 );
