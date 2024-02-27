@@ -5,7 +5,7 @@ Version: 1.0.0
 */
 wp_register_script_module(
 'bar',
-plugins_url( '/bar.js', _FILE_ )
+plugins_url( '/bar.js', __FILE__ )
 );
 wp_enqueue_script_module(
 'foo',
